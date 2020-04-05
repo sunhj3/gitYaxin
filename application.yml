@@ -1,0 +1,15 @@
+spring:
+ profiles:
+  active:
+   - dev
+   
+---
+spring:
+ profiles: dev
+  application:
+   name: microsevice-config-sunhj-dev
+---   
+spring:
+ profiles: test
+  application:
+   name: microsevice-config-sunhj-tes
