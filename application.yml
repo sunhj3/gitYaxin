@@ -5,11 +5,11 @@ spring:
    
 ---
 spring:
- profiles: dev
-  application: 
-   name: microsevice-config-sunhj-dev
+  profiles: dev
+  application:
+    name: springcloudConfigServer-dev
 ---   
-spring: 
- profiles: test
-  application:  
-   name: microsevice-config-sunhj-tes
+spring:
+  profiles: test
+  application:
+    name: springcloudConfigServer-tea
