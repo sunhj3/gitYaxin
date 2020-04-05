@@ -12,4 +12,4 @@ spring:
 spring:
   profiles: test
   application:
-    name: springcloudConfigServer-tea
+    name: springcloudConfigServer-test
