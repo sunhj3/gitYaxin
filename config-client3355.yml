@@ -9,7 +9,7 @@ spring:
   application:
     name: springcloudConfigCilent-dev
 server:
-  port: 7003
+  port: 3355
 
 eureka:
   instance:
@@ -26,7 +26,7 @@ spring:
   application:
     name: springcloudConfigCilent-test
 server:
-  port: 7004
+  port: 3366
 
 eureka:
   instance:
